@@ -138,7 +138,7 @@ function sumarLikesDeUsuario(objetoUsuario) {
    //objetoUsuario = {pots:[{likes:7}]}
    let suma = 0;
    var array= objetoUsuario.posts;
-   array.forEach((post) => {return suma = suma + post.likes});
+   array.forEach((post) => {return suma = suma + post.likes;});
    return suma;
 
 }
